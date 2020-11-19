@@ -1,0 +1,12 @@
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.csprojAssemblyReference.cache
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.Form1.resources
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.Properties.Resources.resources
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.csproj.GenerateResource.cache
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.csproj.CoreCompileInputs.cache
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\bin\Debug\Matricula.exe.config
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\bin\Debug\Matricula.exe
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\bin\Debug\Matricula.pdb
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.NovoCurso.resources
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.exe
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.pdb
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.Notas.resources
