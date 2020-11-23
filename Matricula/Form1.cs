@@ -71,9 +71,20 @@ namespace Matricula
                                 
                                 if(ListCursos.Exists(c => c.nomeCurso == cBoxCursos.Text)  && txtMatricula.MaskCompleted) 
                                 {
-                                    novoAluno.cursosMatriculados.Add(ListCursos.Find(c => c.nomeCurso == cBoxCursos.Text));
+                                    Curso curso = ListCursos.Find(c => c.nomeCurso == cBoxCursos.Text);
+                                   
+                                    Nota nota = new Nota();
+                                    curso.ordemCurso = 1;
+                                    novoAluno.cursosMatriculados.Add(curso);
                                     novoAluno.datasDeMatricula[0] = Convert.ToDateTime(txtMatricula.Text);
                                     novoAluno.numCursosMatriculados++;
+                                    for (int i = 0; i < curso.numPeriodos; i++)
+                                    {
+                                        nota.Notas.Add(0);
+                                    }
+                                    
+                                    
+                                    novoAluno.listaNotas.Add(nota);
           
                                 }
                                
@@ -119,12 +130,20 @@ namespace Matricula
                 {
                     
                     Curso novoCurso = ListCursos.Find(c => c.nomeCurso == cBoxCursos.Text);
+                    Nota nota = new Nota();
+                    novoCurso.ordemCurso = alunoEncontrado.numCursosMatriculados + 1;
+                    for (int i = 0; i < novoCurso.numPeriodos; i++)
+                    {
+                        nota.Notas.Add(0);
+                    }
+                    alunoEncontrado.listaNotas.Add(nota);
+
                     alunoEncontrado.cursosMatriculados.Add(novoCurso);
 
-                    
                     alunoEncontrado.datasDeMatricula[alunoEncontrado.numCursosMatriculados] = Convert.ToDateTime(txtMatricula.Text);
                     alunoEncontrado.numCursosMatriculados++;
-                    
+
+               
 
 
 

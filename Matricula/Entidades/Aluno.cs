@@ -11,8 +11,11 @@ namespace Matricula.Entidades
         public string nomeAluno;
         public string numeroRA;
         public string numeroCPF;
+        public int periodoAtivo;
 
         public List<Curso> cursosMatriculados = new List<Curso>();
+        
+        public List<Nota> listaNotas = new List<Nota>();
         public DateTime[] datasDeMatricula = new DateTime[10];
         public int numCursosMatriculados;
     }

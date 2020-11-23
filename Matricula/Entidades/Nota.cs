@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Matricula.Entidades
 {
-    public class Curso
+    public class Nota
     {
-        public int ordemCurso;
-        public string nomeCurso;
-        public int numPeriodos;
-        public float mediaAprovacao;
+        public List<float> Notas = new List<float>();
     }
 }

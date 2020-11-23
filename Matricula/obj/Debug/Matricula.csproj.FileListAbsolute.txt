@@ -10,3 +10,4 @@ C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.NovoCur
 C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.exe
 C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.pdb
 C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.Notas.resources
+C:\Users\luanm\Desktop\Matricula\Matricula\Matricula\obj\Debug\Matricula.AtualizarUmaNota.resources

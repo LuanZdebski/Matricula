@@ -46,8 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AtualizarUmaNota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtualizarUmaNota.Designer.cs">
+      <DependentUpon>AtualizarUmaNota.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entidades\Aluno.cs" />
     <Compile Include="Entidades\Curso.cs" />
+    <Compile Include="Entidades\Nota.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +75,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AtualizarUmaNota.resx">
+      <DependentUpon>AtualizarUmaNota.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
